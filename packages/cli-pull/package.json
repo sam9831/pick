@@ -1,0 +1,28 @@
+{
+  "name": "@pick/cli-pull",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "sam <247765564@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@pick/cli-git": "^0.1.0",
+    "@pick/cli-log": "^0.1.0",
+    "@pick/cli-mongodb": "^0.0.1",
+    "@pick/cli-utils": "^0.0.1",
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "mocha": "^7.1.0"
+  }
+}
