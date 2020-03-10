@@ -6,3 +6,4 @@ packages/**/package-lock.json
 *.log
 demo
 imooc
+package-lock.json
