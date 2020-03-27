@@ -1,6 +1,6 @@
 {
   "name": "@pick/cli-utils",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -16,10 +16,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
-    "@pick/cli-log": "^0.1.0",
+    "@pick/cli-log": "^1.0.0",
     "cli-spinner": "^0.2.10",
     "inquirer": "^7.0.6",
     "urllib": "^2.34.2"

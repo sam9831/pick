@@ -1,6 +1,6 @@
 {
   "name": "@pick/cli-git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -16,8 +16,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
     "simple-git": "^1.131.0"
   }
