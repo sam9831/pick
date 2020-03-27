@@ -24,7 +24,7 @@ function register() {
     .description('下载课程资源')
     .action(async (id, chapter) => {
       try {
-        require('@pick/cli-pull').pull(id, chapter)
+        require('@pick-star/cli-pull').pull(id, chapter)
       } catch (e) {
         console.error(e)
       }
@@ -35,7 +35,7 @@ function register() {
   //   .description('更新课程资源')
   //   .action(async () => {
   //     try {
-  //       require('@pick/cli-pull').update()
+  //       require('@pick-star/cli-pull').update()
   //     } catch (e) {
   //       console.error(e)
   //     }

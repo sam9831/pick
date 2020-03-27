@@ -1,7 +1,7 @@
 'use strict'
 
 const MongoClient = require('mongodb').MongoClient
-const logger = require('@pick/cli-log')
+const logger = require('@pick-star/cli-log')
 
 class Mongo {
   constructor(url, dbName) {
