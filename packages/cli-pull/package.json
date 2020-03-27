@@ -22,7 +22,7 @@
   "dependencies": {
     "@pick-star/cli-git": "^1.0.0",
     "@pick-star/cli-log": "^1.0.0",
-    "@pick-star/cli-utils": "^1.0.2",
+    "@pick-star/cli-utils": "^1.0.0",
     "chalk": "^3.0.0",
     "fs-extra": "^8.1.0"
   },

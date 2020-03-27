@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@pick-star/cli-log": "^1.0.0",
-    "@pick-star/cli-utils": "^1.0.2",
+    "@pick-star/cli-utils": "^1.0.0",
     "mongodb": "^3.5.4"
   },
   "devDependencies": {

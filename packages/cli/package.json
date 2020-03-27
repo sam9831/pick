@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@pick-star/cli-log": "^1.0.0",
-    "@pick-star/cli-pull": "^1.0.2",
-    "@pick-star/cli-utils": "^1.0.2",
+    "@pick-star/cli-pull": "^1.0.0",
+    "@pick-star/cli-utils": "^1.0.0",
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
     "npmlog": "^4.1.2",
