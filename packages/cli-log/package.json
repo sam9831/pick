@@ -19,5 +19,6 @@
   "scripts": {},
   "dependencies": {
     "npmlog": "^4.1.2"
-  }
+  },
+  "gitHead": "6f76d465ff9e15cee0f08c5e547a6585f5fdba1a"
 }

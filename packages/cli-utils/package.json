@@ -22,5 +22,6 @@
     "cli-spinner": "^0.2.10",
     "inquirer": "^7.0.6",
     "urllib": "^2.34.2"
-  }
+  },
+  "gitHead": "6f76d465ff9e15cee0f08c5e547a6585f5fdba1a"
 }
