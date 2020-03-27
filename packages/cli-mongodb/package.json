@@ -1,6 +1,6 @@
 {
   "name": "@pick-star/cli-mongodb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@pick-star/cli-log": "^1.0.0",
-    "@pick-star/cli-utils": "^1.0.0",
+    "@pick-star/cli-utils": "^1.0.1",
     "mongodb": "^3.5.4"
   },
   "devDependencies": {
