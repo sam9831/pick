@@ -23,9 +23,9 @@
     "mocha": "^7.1.0"
   },
   "dependencies": {
-    "@pick/cli-log": "^1.0.7",
-    "@pick/cli-pull": "^0.0.1",
-    "@pick/cli-utils": "^0.0.1",
+    "@pick-star/cli-log": "^1.0.0",
+    "@pick-star/cli-pull": "^1.0.0",
+    "@pick-star/cli-utils": "^1.0.0",
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
     "npmlog": "^4.1.2",

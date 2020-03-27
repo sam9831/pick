@@ -20,8 +20,8 @@
     "test": "mocha __tests__"
   },
   "dependencies": {
-    "@pick/cli-log": "^1.0.7",
-    "@pick/cli-utils": "^0.0.1",
+    "@pick-star/cli-log": "^1.0.0",
+    "@pick-star/cli-utils": "^1.0.0",
     "mongodb": "^3.5.4"
   },
   "devDependencies": {

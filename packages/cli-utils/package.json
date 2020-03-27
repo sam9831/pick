@@ -18,7 +18,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@pick/cli-log": "^1.0.7",
+    "@pick-star/cli-log": "^1.0.0",
     "cli-spinner": "^0.2.10",
     "inquirer": "^7.0.6",
     "urllib": "^2.34.2"
