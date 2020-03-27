@@ -1,6 +1,6 @@
 {
   "name": "@pick/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -23,7 +23,7 @@
     "mocha": "^7.1.0"
   },
   "dependencies": {
-    "@pick/cli-log": "^1.0.0",
+    "@pick/cli-log": "^1.0.1",
     "@pick/cli-pull": "^0.0.1",
     "@pick/cli-utils": "^0.0.1",
     "chalk": "^3.0.0",
