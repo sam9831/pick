@@ -1,6 +1,6 @@
 {
   "name": "@pick-star/cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@pick-star/cli-log": "^1.0.0",
-    "@pick-star/cli-pull": "^1.0.0",
+    "@pick-star/cli-pull": "^1.0.2",
     "@pick-star/cli-utils": "^1.0.0",
     "chalk": "^3.0.0",
     "commander": "^4.1.1",
