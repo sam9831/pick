@@ -19,9 +19,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "mocha __tests__"
-  },
   "devDependencies": {
     "mocha": "^7.1.0"
   },

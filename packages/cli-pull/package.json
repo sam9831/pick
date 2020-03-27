@@ -16,13 +16,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "test": "mocha -t 5000 -s 1000 __tests__"
+  },
   "dependencies": {
     "@pick/cli-git": "^0.1.0",
     "@pick/cli-log": "^0.1.0",
-    "@pick/cli-mongodb": "^0.1.0",
     "@pick/cli-utils": "^0.0.1",
     "chalk": "^3.0.0",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
     "mocha": "^7.1.0"
   }
 }

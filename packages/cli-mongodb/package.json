@@ -17,11 +17,14 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "mocha __tests__"
   },
   "dependencies": {
     "@pick/cli-log": "^0.1.0",
     "@pick/cli-utils": "^0.0.1",
     "mongodb": "^3.5.4"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.0"
   }
 }

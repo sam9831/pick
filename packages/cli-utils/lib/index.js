@@ -2,6 +2,8 @@
 
 const inquirer = require('./inquirer')
 const Spinner = require('cli-spinner').Spinner
+const urllib = require('urllib')
+const URL_PREFIX = 'http://book.youbaobao.xyz:7001'
 
 function isObject(o) {
   return Object.prototype.toString.call(o) === '[object Object]'
@@ -41,10 +43,32 @@ function openDefaultBrowser(url) {
   }
 }
 
+async function request(url) {
+  try {
+    if (url.indexOf('http') < 0 || url.indexOf('https') < 0) {
+      if (url.startsWith('/')) {
+        url = `${URL_PREFIX}${url}`
+      } else {
+        url = `${URL_PREFIX}/${url}`
+      }
+    }
+    const response = await urllib.request(url)
+    if (response && response.status === 200) {
+      if (response.data) {
+        return JSON.parse(response.data.toString())
+      }
+    }
+  } catch (e) {
+    //
+  }
+  return null
+}
+
 module.exports = {
   isObject,
   inquirer,
   createInquirerChoices,
   spinner,
-  openDefaultBrowser
+  openDefaultBrowser,
+  request
 }

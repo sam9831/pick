@@ -30,16 +30,16 @@ function register() {
       }
     })
 
-  program
-    .command('update')
-    .description('更新课程资源')
-    .action(async () => {
-      try {
-        require('@pick/cli-pull').update()
-      } catch (e) {
-        console.error(e)
-      }
-    })
+  // program
+  //   .command('update')
+  //   .description('更新课程资源')
+  //   .action(async () => {
+  //     try {
+  //       require('@pick/cli-pull').update()
+  //     } catch (e) {
+  //       console.error(e)
+  //     }
+  //   })
 
   program
     .option('--debug', '打开调试模式')

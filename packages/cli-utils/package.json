@@ -17,11 +17,11 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
     "@pick/cli-log": "^0.1.0",
     "cli-spinner": "^0.2.10",
-    "inquirer": "^7.0.6"
+    "inquirer": "^7.0.6",
+    "urllib": "^2.34.2"
   }
 }
