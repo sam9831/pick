@@ -1,6 +1,6 @@
 {
   "name": "@pick/cli-pull",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "> TODO: description",
   "author": "sam <247765564@qq.com>",
   "homepage": "",
@@ -20,8 +20,8 @@
     "test": "mocha -t 5000 -s 1000 __tests__"
   },
   "dependencies": {
-    "@pick/cli-git": "^1.0.6",
-    "@pick/cli-log": "^1.0.6",
+    "@pick/cli-git": "^1.0.7",
+    "@pick/cli-log": "^1.0.7",
     "@pick/cli-utils": "^0.0.1",
     "chalk": "^3.0.0",
     "fs-extra": "^8.1.0"
