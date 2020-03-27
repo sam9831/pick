@@ -1,1 +1,1 @@
-License: GPL
+License: ISC
