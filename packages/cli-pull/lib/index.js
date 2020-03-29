@@ -17,6 +17,7 @@ async function pull(courseId, chapterId, { resourceId, autoCover } = {}) {
     // 如果课程id不存在，则需要选择课程
     // const course = await mongodb.query('course')
     const course = await request(`${URL_GET_COURSE}`)
+    logger.verbose('', course)
     if (course) {
       const choices = createInquirerChoices(course)
       courseId = await inquirer({
